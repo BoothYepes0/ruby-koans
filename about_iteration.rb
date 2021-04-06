@@ -1,4 +1,4 @@
-require File.expand_path(File.dirname(__FILE__) + '/neo')
+require File.expand_path(File.dirname(__FILE__) + "/neo")
 
 class AboutIteration < Neo::Koan
 
@@ -14,7 +14,7 @@ class AboutIteration < Neo::Koan
     end
   end
 
-  in_ruby_version("1.9", "2") do
+  in_ruby_version("1.9", "2", "3") do
     def as_name(name)
       name.to_sym
     end
